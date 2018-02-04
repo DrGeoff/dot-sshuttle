@@ -1,0 +1,4 @@
+alias tunnel='sshuttle -r geoff@brits001 172.16.0.0/16'
+alias tunnel-dns='sshuttle --dns -r geoff@brits001 172.16.0.0/16'
+#alias reset-tunnel='sudo ipfw -q -f flush'
+alias reset-tunnel='sudo reset-ip-tables'
